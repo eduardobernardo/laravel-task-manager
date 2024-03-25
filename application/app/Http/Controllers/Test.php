@@ -39,6 +39,6 @@ class Test extends Controller {
      */
     public function index() {
 
-        $foo = "ALTER TABLE `tableconfig` ADD `tableconfig_column_41` varchar(20) COLLATE 'utf8_general_ci' NULL DEFAULT 'hidden' COMMENT 'hidden|displayed';"
+        $foo = "ALTER TABLE `tableconfig` ADD `tableconfig_column_41` varchar(20) COLLATE 'utf8_general_ci' NULL DEFAULT 'hidden' COMMENT 'hidden|displayed'";
     }
 }
